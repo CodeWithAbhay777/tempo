@@ -36,7 +36,7 @@ const SaveModal = ({ codeSaveinfo, closeModal, setSavedRefresh }) => {
     }
 
     return (
-        <div className='fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-[100]'>
+        <div className='fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-[9999]'>
 
             <div className='h-[26rem] w-[70rem] lg:w-[50rem] md:w-[28rem] sm:w-[24rem] bg-gray-900 rounded-lg shadow-[0px_0px_50px_rgba(0,0,0,1)] flex'>
                 <div className='h-full w-[22rem] flex flex-col'>
